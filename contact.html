@@ -3,16 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Pericles' Portfolio</title>
+    <title>Contact Me</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Assets/style.css" />
   </head>
-  <body style="padding: 0px;">
+  <body>
     <!-- Begin navbar content -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container d-flex">
@@ -36,7 +35,7 @@
         >
           <!-- Navbar buttons -->
           <ul class="navbar-nav pl-5">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
@@ -44,7 +43,7 @@
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <!-- Drop down buttons -->
@@ -95,41 +94,34 @@
         </div>
       </div>
     </nav>
-    <!-- Content of about me page placed in here -->
     <main>
       <div class="container">
-        <div class="row single-post mt-5 no-gutters">
-          <h1 class="col-md-12">About Me</h1>
-          <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
-            <div class="image-wrapper float-left pr-3">
-              <img
-                id="dimg_78"
-                src="Assets/Headshot.jpg"
-                class="outdoor img-fluid"
-                height="350"
-                title="Headshot"
-                width="350"
-                alt="Headshot"
-                data-atf="1"
-              />
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1>Contact</h1>
+            <br />
+            <!-- Text areas allow for input from users in the given fields -->
+              <h6>Name</h6>
+              <textarea name="name" rows="1" cols="100"></textarea>
+              <h6>Email</h6>
+              <textarea name="email" rows="1" cols="100"></textarea>
+              <h6>Message</h6>
+              <textarea name="message" rows="10" cols="100"></textarea>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-8" style="padding: 0px;">
-            <p>
-              Welcome to my portfolio! I graduated from Campbell University with
-              a bachelor's degree in Psychology and minors in Chemistry and
-              General Science. My hobbies include video games, weightlifting,
-              and hiking with my dog. I am currently working to start a new
-              career as a Full Stack Web Developer. Check out my github to see
-              some of the projects I have worked on. My LinkedIn includes more
-              information about my education and job experience. Lastly, follow
-              me on twitter.
-            </p>
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                <!-- Button to allow for submitting content from the text areas, although onclick function alerts user that this functionallity is not yet present -->
+                <button type="button" onclick="alert('Function coming soon!')">
+                  Submit
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
-    <!-- Footer content here  -->
+    
+    <!-- Footer content here -->
     <footer class="footer text-center py-3">
       <div class="container">
         <span class="text-muted">Sample sticky footer.</span>

@@ -10,9 +10,8 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Assets/style.css" />
   </head>
-  <body style="padding: 0px;">
+  <body>
     <!-- Begin navbar content -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container d-flex">
@@ -36,12 +35,12 @@
         >
           <!-- Navbar buttons -->
           <ul class="navbar-nav pl-5">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
@@ -95,41 +94,98 @@
         </div>
       </div>
     </nav>
-    <!-- Content of about me page placed in here -->
+    <!-- Content of portfolio placed in here -->
     <main>
       <div class="container">
-        <div class="row single-post mt-5 no-gutters">
-          <h1 class="col-md-12">About Me</h1>
-          <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
-            <div class="image-wrapper float-left pr-3">
-              <img
-                id="dimg_78"
-                src="Assets/Headshot.jpg"
-                class="outdoor img-fluid"
-                height="350"
-                title="Headshot"
-                width="350"
-                alt="Headshot"
-                data-atf="1"
-              />
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1>Portfolio</h1>
+            <br />
+            <!-- Sidecard appears on the right on medium screens, but is placed above projects on smaller screens -->
+            <div class="image-wrapper float-right pr-3 col-xs-12 col-md-4">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">More to Come</h5>
+                    <p class="card-text">
+                      My portfolio is still a work in progress! As I deploy more
+                      projects, they will appear here.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-8" style="padding: 0px;">
-            <p>
-              Welcome to my portfolio! I graduated from Campbell University with
-              a bachelor's degree in Psychology and minors in Chemistry and
-              General Science. My hobbies include video games, weightlifting,
-              and hiking with my dog. I am currently working to start a new
-              career as a Full Stack Web Developer. Check out my github to see
-              some of the projects I have worked on. My LinkedIn includes more
-              information about my education and job experience. Lastly, follow
-              me on twitter.
-            </p>
+            <!-- Project grid appears below, two items per row -->
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <h5>Password Generator</h5>
+                <a
+                  href="https://jamespericles.github.io/Homework-03/"
+                  target="_blank"
+                >
+                  <img
+                    src="Assets/Portfolio Projects/Password_Generator.png"
+                    alt="Password_Generator"
+                    height="150"
+                    width="150"
+                  />
+                </a>
+                <p>
+                  This simple project is a Javascript powered HTML password
+                  generator. It allows users to select from several different
+                  variables to generate their password with, then displays the
+                  password on screen. It also includes a button to allow users
+                  to copy the generated password to their clipboard.
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h5>JQuery Work Day Scheduler</h5>
+                <a
+                  href="https://jamespericles.github.io/Homework-05/"
+                  target="_blank"
+                >
+                  <img
+                    src="Assets/Currently_1PM.png"
+                    alt="Work_Day_Scheduler"
+                    height="150"
+                    width="150"
+                  />
+                </a>
+                <p>
+                  This simple planner integrates both JQuery and BootStrap
+                  technologies to create a simple 9 to 5 event planner. The user
+                  is able to add events to each time block. The added events are
+                  then saved to localstorage so that the user can leave the page
+                  without their added events disappearing. Each time block
+                  changes color based on the time of day.
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h5>Placeholder Project</h5>
+                <img src="Assets/Placeholder.png" alt="Placeholder Image" />
+                <p>Placeholder description for deployed project.</p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h5>Placeholder Project</h5>
+                <img src="Assets/Placeholder.png" alt="Placeholder Image" />
+                <p>Placeholder description for deployed project.</p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h5>Placeholder Project</h5>
+                <img src="Assets/Placeholder.png" alt="Placeholder Image" />
+                <p>Placeholder description for deployed project.</p>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h5>Placeholder Project</h5>
+                <img src="Assets/Placeholder.png" alt="Placeholder Image" />
+                <p>Placeholder description for deployed project.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
-    <!-- Footer content here  -->
+    <!-- Footer content here -->
     <footer class="footer text-center py-3">
       <div class="container">
         <span class="text-muted">Sample sticky footer.</span>
