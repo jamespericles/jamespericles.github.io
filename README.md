@@ -27,6 +27,7 @@ README-Generator: https://github.com/jamespericles/README-Generator
 Day-Planner: https://github.com/jamespericles/Day-Planner
 
 Random-Password-Generator: https://github.com/jamespericles/Random-Password-Generator
+
 Swift Version: https://github.com/jamespericles/Swift-Password-Generator
 
 My Repositories: https://github.com/jamespericles?tab=repositories
@@ -34,6 +35,7 @@ My Repositories: https://github.com/jamespericles?tab=repositories
 ### <a name="ContactInformation"></a>Contact Information
 
 Email: james.pericles@aol.com
+
 LinkedIn: https://www.linkedin.com/in/james-pericles-ii-38a859156/
 
 ### <a name="Github"></a>Github
